@@ -1,0 +1,108 @@
+body{
+    background-color: #f6f6f2;
+}
+
+ul li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+    font-size: 25px;
+
+}
+
+.logo{
+    padding: 0px;
+    margin: 0px;
+    width: 100px;
+    margin-right: 10px;
+}
+
+.nav{
+    
+        background: #F6F6F2;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 1.5rem;
+        
+    
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item{
+   padding: 25px;
+
+}
+
+.container{
+    display: flex;
+    align-items: center;
+}
+
+.title{
+    color: #388087;
+    font-weight: bold;
+    font-size: 75px;
+}
+
+.login-button{
+    border-radius: 25px;
+    background-color: #6FB3B8;
+    border-radius: 25px;
+    border: none;
+    padding: 15px 30px;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.login-button:hover{
+    background-color: #388087;
+}
+
+.section1 {
+    background-color: #6fb3b8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+  }
+  
+.section1 h1{
+    font-family: sans-serif;
+    color: #0a6971;
+    margin: 0px;
+    font-style: oblique;
+}
+
+.section2{
+    display: flex;
+    padding: 80px;
+    align-items: center;
+}
+
+.section2 img{
+    align-self: right;
+    padding-left: 40px;
+}
+
+.content h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    margin-bottom: 30px;
+    color: #06575d;
+}
+
+.content p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(51, 108, 108);
+}
