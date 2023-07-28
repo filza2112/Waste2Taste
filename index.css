@@ -1,5 +1,12 @@
 html{
     background-color: #F6F6F2;
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: 'Custom Font' ;
+    src: url('assets/fonts/Lovelo\ Black.otf') format('otf');
 }
 
 
@@ -9,7 +16,7 @@ ul li{
 
 a{
     text-decoration: none;
-    color:black;
+    color: #000;
     font-size: 25px;
 
 }
@@ -17,7 +24,7 @@ a{
 .logo{
     padding: 0px;
     margin: 0px;
-    width: 100px;
+    width: 130px;
     margin-right: 10px;
 }
 
@@ -27,7 +34,7 @@ a{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 1rem 1.5rem;
+        
         
     
 }
@@ -49,15 +56,16 @@ ul{
 }
 
 .title{
-    color: #388087;
+    color: #0f606b;
     font-weight: bold;
-    font-size: 75px;
+    font-size: 70px;
+    font-family: 'Custom Font';
 }
 
 .login-button{
     border-radius: 25px;
-    background-color: #6FB3B8;
-    border-radius: 25px;
+    background-color: #388087;
+    border-radius: 87px;
     border: none;
     padding: 15px 30px;
     color: white;
@@ -66,5 +74,58 @@ ul{
 }
 
 .login-button:hover{
+    background-color: rgb(187, 176, 154)
+}
+
+.picture{
+    float: right;
+    width: 1253;
+    height: 810;
+}
+
+.tagline{
+    color: #0F606B;
+    font-size: 40px;
+    padding-left: 35px;
+    font-weight: bold;
+}
+
+.option{
+    color:#388087;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 30px;
+}
+
+.donate-button{
+    border-radius: 25px;
     background-color: #388087;
+    border-radius: 87px;
+    border: none;
+    padding: 10px 25px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 275px;
+}
+
+.donate-button:hover{
+    background-color: rgb(187, 176, 154)
+}
+
+.receive-button{
+    border-radius: 25px;
+    background-color: #388087;
+    border-radius: 87px;
+    border: none;
+    padding: 10px 25px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 20px;
+    
+}
+
+.receive-button:hover{
+    background-color: rgb(187, 176, 154)
 }
