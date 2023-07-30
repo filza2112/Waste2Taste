@@ -1,0 +1,154 @@
+body{
+    background-color: #f6f6f2;
+}
+
+ul li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+    font-size: 25px;
+
+}
+
+.logo{
+    padding: 0px;
+    margin: 0px;
+    width: 100px;
+    margin-right: 10px;
+}
+
+.nav{
+    
+        background: #F6F6F2;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 1.5rem;
+        
+    
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item{
+   padding: 25px;
+
+}
+
+.container{
+    display: flex;
+    align-items: center;
+}
+
+.title{
+    color: #388087;
+    font-weight: bold;
+    font-size: 75px;
+}
+
+.login-button{
+    border-radius: 25px;
+    background-color: #6FB3B8;
+    border-radius: 25px;
+    border: none;
+    padding: 15px 30px;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.login-button:hover{
+    background-color: #388087;
+}
+  
+.contact-section {
+    margin-top: 2rem;
+    padding: 2rem;
+    background-color: #f1f1f1;
+
+  }
+  
+.contact-section h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+.contact-form {
+    margin-top: 1rem;
+  }
+  
+.contact-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #29565a;
+  }
+  
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+.contact-form textarea {
+    height: 150px;
+  }
+  
+.contact-form button {
+    background-color: #0b858e;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+.contact-form button:hover {
+    background-color: #555;
+  }
+  
+  
+.section1 {
+    background-color: #6fb3b8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+  }
+  
+.section1 h1{
+    font-family: sans-serif;
+    color: #0a6971;
+    margin: 0px;
+    font-style: oblique;
+}
+
+.section2 {
+    background-color: #6fb3b8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+  }
+
+.section2 p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-weight: bold;
+    color: #0a6971;
+  }

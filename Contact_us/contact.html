@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="style.css">
+  <script type = "text/javascript">  
+    function fun() {  
+       alert ("message sent");  
+    }  
+    </script>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <a href="#" class="logo">
+                <div class="container">
+                <img src="logo.png" class="logo"/>
+                <h2>
+                    <span class="title">Waste2Taste</span>
+                </h2>
+            </div>
+                </a>
+                <ul>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link" id="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link" id="nav-link">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#login">
+                        <button class="login-button" >Login</button>
+                    </a>
+                    </li>
+                </ul>
+        </nav>
+    </header>
+    <section class="section1">
+        <h1>CONTACT US</h1>
+    </section>
+  <div class="contact-section">
+
+    <form class="contact-form">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <button type="submit" onclick="fun()">Send Message</button>
+    </form>
+  </div>
+  <section class="section2">
+    <p>123 wduw,wsrfsc qiqqq,India</p>
+    <p>Phone: +910000000000</p>
+    <p>Email: Waste2Taste2112@gmail.com</p>
+  </section>
+</body>
+</html>
