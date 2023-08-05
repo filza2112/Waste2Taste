@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waste2Taste</title>
+    <script src="https://api.tomtom.com/maps-sdk-for-web/cdn/6.x/6.14.0/maps/maps-web.min.js"></script>
+</head>
+<body>
+    <h1>Finding nearby receivers</h1>
+    <div id="map"></div>
+    <script>
+        const API_KEY ='jzLyknV7GAdMcgkZALJGxfRi7PqWzt6w';
+
+        var map = tt.map({
+            key : API_KEY,
+            container : 'map',
+            style : 'tomtom://vector/1/basic-main'
+        });
+
+        const donoraddress = "123 Main Street, City, Country";
+
+        tt.services.geocode({
+            key : API_KEY,
+            querry : donoraddress
+        })
+        .go()
+        .then(response =>{
+            const result = response.results[0];
+            const donorLocation = result.position;
+        })
+
+        tt.services.search({
+            key : API_KEY,
+            query : 'NGO',
+            center : donorLocation.lat + ',' + donorLocation.lon
+        })
+        .go()
+        .then(response =>{
+            const nearbyNGOs = response.result;
+
+
+            const ngoslist = document.create.element('ul');
+            nearbyreceivers.forEach(ngo => {
+
+                const kname = ngo.poi.name;
+                const kAddress = ngo.address.freeformAddress;
+
+                const listItem = document.createElement('li');
+                listItem.textContent = ngoName + ' - ' + ngoAddress;
+                ngo.appendChild(listItem);
+});
+
+                document.body.appendChild(ngosList);
+            
+})
+.catch(error => {
+console.error('Error searching for nearby NGOs:', error);
+})
+.catch(error => {
+console.error('Error geocoding restaurant address:', error);
+});
+
+    </script>
+</body>
+</html>
