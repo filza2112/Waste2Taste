@@ -24,7 +24,7 @@ a{
 .logo{
     padding: 0px;
     margin: 0px;
-    width: 130px;
+    width: 100px;
     margin-right: 10px;
 }
 
@@ -58,7 +58,7 @@ ul{
 .title{
     color: #0f606b;
     font-weight: bold;
-    font-size: 70px;
+    font-size: 50px;
     font-family: 'Custom Font';
 }
 
@@ -86,7 +86,7 @@ ul{
 .tagline{
     color: #0F606B;
     font-size: 40px;
-    padding-left: 35px;
+    text-align: center;
     font-weight: bold;
 }
 
@@ -129,3 +129,63 @@ ul{
 .receive-button:hover{
     background-color: rgb(187, 176, 154)
 }
+
+.heading{
+    margin-top: 250px;
+    text-align: center;
+    color: #0f606b;
+    font-size: 45px;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+
+.row {
+    margin: 0 -5px;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+   
+  }
+  
+  .card img {
+    max-width: 100%;
+  }
+  
+  .card-content {
+    padding: 15px;
+    color: #388087;
+  }
+  
+  .card h2 {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  
+  .card p {
+    margin: 10px 0;
+  }
+  
+  .card a {
+    display: block;
+    text-align: center;
+    padding: 5px 0;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+  }
+  
+  .card a:hover {
+    background-color: #0056b3;
+  }
+  
+
