@@ -81,6 +81,7 @@ ul{
     float: right;
     width: 1253;
     height: 810;
+    padding-bottom: 30px;
 }
 
 .tagline{
@@ -107,6 +108,7 @@ ul{
     font-size: 20px;
     cursor: pointer;
     margin-left: 275px;
+    margin-bottom: 100px;
 }
 
 .donate-button:hover{
@@ -188,4 +190,52 @@ ul{
     background-color: #0056b3;
   }
   
+.footer{
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #0F606B;
+    justify-content: center;
+    align-items: center;
+    height: 330px;
+    }
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h2{
+    font-size: 2.1rem;
+    text-transform: capitalize;
+    color: #d5eaed;
+    margin-bottom: 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.footer-content p{
+    line-height: 35px;
+    font-size: 20px;
+    color: #cacdd2;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.soc{
+    height: 30px;
+    width: 30px;
+    padding: 50px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+ }
+
 
